@@ -12,6 +12,7 @@
 		4504805A20419C8100ADB04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4504805820419C8100ADB04D /* Main.storyboard */; };
 		4504805C20419C8100ADB04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4504805B20419C8100ADB04D /* Assets.xcassets */; };
 		4504805F20419C8100ADB04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4504805D20419C8100ADB04D /* LaunchScreen.storyboard */; };
+		4504806720419F7500ADB04D /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504806620419F7500ADB04D /* Socket.swift */; };
 		C47AB315905E054835776BCE /* Pods_BluetoothHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5328BBFBF9B92B357B33F4D /* Pods_BluetoothHackathon.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		4504805B20419C8100ADB04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4504805E20419C8100ADB04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4504806020419C8100ADB04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4504806620419F7500ADB04D /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		D5328BBFBF9B92B357B33F4D /* Pods_BluetoothHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7292D5FC9EDB9C92520909F /* Pods-BluetoothHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothHackathon/Pods-BluetoothHackathon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				4504805420419C8100ADB04D /* AppDelegate.swift */,
+				4504806620419F7500ADB04D /* Socket.swift */,
 				4504805620419C8100ADB04D /* ViewController.swift */,
 				4504805820419C8100ADB04D /* Main.storyboard */,
 				4504805B20419C8100ADB04D /* Assets.xcassets */,
@@ -221,6 +224,7 @@
 			files = (
 				4504805720419C8100ADB04D /* ViewController.swift in Sources */,
 				4504805520419C8100ADB04D /* AppDelegate.swift in Sources */,
+				4504806720419F7500ADB04D /* Socket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
